@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Ropa+Sans|Ubuntu");
+
+body{
+background-color: #D93B38;
+text-align: center;
+}
+
+.font1{
+font-family: 'Ropa Sans', sans-serif;
+font-size:32px;
+color: white;
+letter-spacing: 3px;
+text-shadow: 3px 2px 2px black;
+}
+
+.btn {
+font-family: 'Ubuntu', sans-serif;
+font-size:16px;
+color: #ffffff;
+  height:30;
+  width: 200px;
+  -webkit-border-radius: 59;
+  -moz-border-radius: 59;
+  border-radius: 59px;
+  text-shadow: 1px 1px 3px #666666;
+  background: #DB9E33;
+  padding: 3px 8px 3px 8px;
+  border: solid #383d2a 2px;
+  text-decoration: none;
+  margin-top:10px;
+  margin-left:0.2%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+}
+
+.btn:hover {
+  font-size: 18px;
+  font-weight: 600;
+  background: #a88f48;
+  padding: 2px 8px 5px 8px;
+  margin-top:10px;
+  text-decoration: underline;
+}
+
+.btn2{
+	font-size:16px;
+	font-weight:600;
+	text-decoration: none;
+	background-color:#5499C7;
+	padding: 2px 8px 5px 8px;
+  height:30;
+  width: 200px;
+  -webkit-border-radius: 59;
+  -moz-border-radius: 59;
+  border-radius: 59px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: consolas;
+  color: #ffffff;
+  border: solid #383d2a 2px;
+  margin-top:10px;
+  margin-left:0.2%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 3px #FBC02D;
+  }
+
+.warng2{
+  font-family: monospace;
+  font-size: 16px;
+  color: white;
+  opacity: 0.15;
+  text-shadow: 0px 0px 5px tomato;
+  margin: 12.5px;
+}
+
+a:link
+{
+
+}
+a:visited
+{
+
+}
+a:hover
+{
+
+}
+a:active
+{
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-family: 'Ubuntu', sans-serif;
+  font-size:16px;
+  color: #ffffff;
+    background: #37373f;
+    padding: 3px 5px;
+    font-weight: lighter;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  font-size: 17px;
+  font-weight: normal;
+  background: #37373f;
+  text-decoration: underline;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    font-size: 14px;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 103%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -9px;
+    border-width: 9px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
